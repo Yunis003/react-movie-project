@@ -13,7 +13,7 @@ const Movie = (props) => {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch(`https://www.omdbapi.com/?s=${search}&apikey=119f7834`)
+    fetch(`https://www.omdbapi.com/?s=${search}&apikey=b2e8e58f`)
       .then(res => res.json())
       .then(data => {
         if (data.Response === "False") {
